@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="179dp"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Create Contact"
+            android:id="@+id/textView" android:layout_x="91dp" android:layout_y="9dp" android:editable="false"
+            android:phoneNumber="false"/>
+    <EditText
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:inputType="textAutoComplete|textPersonName"
+            android:ems="10"
+            android:id="@+id/txtName" android:layout_x="9dp" android:layout_y="59dp" android:autoText="false"
+            android:hint="Contact name"/>
+    <EditText
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/txtPhoneNumber" android:layout_x="10dp" android:layout_y="118dp"
+            android:hint="Phone Number" android:phoneNumber="true"/>
+    <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/txtEmail" android:layout_x="14dp" android:layout_y="177dp"
+            android:hint="Email address"/>
+    <EditText android:layout_width="356dp" android:layout_height="wrap_content"
+              android:ems="10" android:id="@+id/txtAddress"
+              android:layout_x="15dp" android:layout_y="237dp" android:autoText="false" android:hint="Address"
+              android:autoLink="map"/>
+    <Button
+            android:layout_width="121dp"
+            android:layout_height="63dp"
+            android:text="Save"
+            android:id="@+id/btnSave" android:layout_x="11dp" android:layout_y="349dp"/>
+    <Button
+            android:layout_width="113dp"
+            android:layout_height="62dp"
+            android:text="Cancel"
+            android:id="@+id/btnCancel" android:layout_x="237dp" android:layout_y="346dp"/>
+</AbsoluteLayout>

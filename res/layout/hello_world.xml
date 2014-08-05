@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtname"
+            android:layout_marginTop="51dp" android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/txtpassword"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txtpassword"
+            android:layout_below="@+id/txtname"
+            android:layout_marginTop="42dp" android:layout_alignRight="@+id/btnclear"/>
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New RadioButton"
+            android:id="@+id/rbncheck"
+            android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:checked="false"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:id="@+id/btnclear"
+            android:layout_marginTop="44dp"
+            android:layout_below="@+id/rbncheck" android:layout_toRightOf="@+id/rbncheck"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:id="@+id/btnsave"
+            android:layout_alignTop="@+id/btnclear" android:layout_alignBottom="@+id/btnclear"
+            android:layout_alignLeft="@+id/txtpassword"/>
+</RelativeLayout>

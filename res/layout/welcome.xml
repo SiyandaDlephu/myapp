@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="243dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Welcome to my app"
+            android:id="@+id/textView" android:layout_x="93dp" android:layout_y="22dp"/>
+    <Button
+            android:layout_width="103dp"
+            android:layout_height="79dp"
+            android:text="About me"
+            android:id="@+id/btnabout" android:layout_x="36dp" android:layout_y="85dp"/>
+    <Button
+            android:layout_width="123dp"
+            android:layout_height="71dp"
+            android:text="Special"
+            android:id="@+id/btnspcial" android:layout_x="215dp" android:layout_y="85dp"/>
+    <TextView
+            android:layout_width="176dp"
+            android:layout_height="57dp"
+            android:id="@+id/textView2" android:layout_x="97dp" android:layout_y="61dp"/>
+    <Button
+            android:layout_width="115dp"
+            android:layout_height="60dp"
+            android:text="Add contact"
+            android:id="@+id/btnAddContact" android:layout_x="23dp" android:layout_y="196dp"/>
+</AbsoluteLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="327dp"
+            android:layout_height="484dp"
+            android:id="@+id/editText" android:layout_x="30dp" android:layout_y="13dp"
+            android:text="How to Use the Example Code  If you are working in GUIDE, then right-click on the component in your layout and select the appropriate callback property from the View Callbacks menu. Doing so creates an empty callback function that is automatically associated with the component. The specific function name that GUIDE creates is based on the component's Tag property, so your function name might be slightly different than the function name in the example code. Do not change the function name that GUIDE creates in your code. To use the example code in your GUI, copy the code from the example's function body into your function's body."/>
+</AbsoluteLayout>

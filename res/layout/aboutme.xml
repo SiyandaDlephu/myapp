@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About me"
+            android:id="@+id/textView" android:layout_x="122dp" android:layout_y="11dp"/>
+    <TextView
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Name:      Siyanda"
+            android:id="@+id/textView2" android:layout_x="88dp" android:layout_y="44dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Surname:     Dlephu"
+            android:id="@+id/textView3" android:layout_x="83dp" android:layout_y="61dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Course:     IT"
+            android:id="@+id/textView4" android:layout_x="86dp" android:layout_y="80dp"/>
+    <Button
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:id="@+id/btnlogout" android:layout_x="130dp" android:layout_y="483dp"/>
+    <CalendarView
+            android:layout_width="261dp"
+            android:layout_height="255dp"
+            android:id="@+id/calendarView" android:layout_x="66dp" android:layout_y="222dp"/>
+</AbsoluteLayout>
