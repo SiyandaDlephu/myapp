@@ -24,9 +24,4 @@
             android:layout_width="176dp"
             android:layout_height="57dp"
             android:id="@+id/textView2" android:layout_x="97dp" android:layout_y="61dp"/>
-    <Button
-            android:layout_width="115dp"
-            android:layout_height="60dp"
-            android:text="Add contact"
-            android:id="@+id/btnAddContact" android:layout_x="23dp" android:layout_y="196dp"/>
 </AbsoluteLayout>

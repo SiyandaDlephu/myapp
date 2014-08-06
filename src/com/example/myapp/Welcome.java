@@ -46,7 +46,8 @@ public class Welcome extends Activity implements View.OnClickListener {
         }
         else if(view.getId()== R.id.btnspcial)
         {
-             Intent intent = new Intent(this, Special.class);
+            //Toast.makeText(getApplicationContext(),"HER......E",Toast.LENGTH_LONG).show();
+             Intent intent = new Intent(getApplicationContext(), Special.class);
              startActivity(intent);
         }
     }
@@ -72,6 +73,16 @@ public class Welcome extends Activity implements View.OnClickListener {
             case R.id.help:
                 Intent intent1 = new Intent(getApplicationContext(), Help.class);
                 startActivity(intent1);
+                return true;
+
+            case R.id.action_search:
+                Toast.makeText(getApplicationContext(),"Clicked on search icon", Toast.LENGTH_LONG).show();
+                return true;
+            case R.id.action_location:
+                Toast.makeText(getApplicationContext(),"Clicked on Location icon", Toast.LENGTH_LONG).show();
+                return true;
+            case  R.id.action_refresh:
+                Toast.makeText(getApplicationContext(),"Clicked on refresh icon", Toast.LENGTH_LONG).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

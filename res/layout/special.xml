@@ -7,15 +7,35 @@
     <ImageView
             android:layout_width="156dp"
             android:layout_height="156dp"
-            android:id="@+id/imageView" android:layout_x="91dp" android:layout_y="64dp" android:src="@drawable/index"/>
+            android:id="@+id/imageView" android:layout_x="19dp" android:layout_y="35dp" android:src="@drawable/index"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ChangeIcon"
-            android:id="@+id/btnicon" android:layout_x="31dp" android:layout_y="423dp"/>
+            android:id="@+id/btnicon" android:layout_x="42dp" android:layout_y="485dp"/>
     <Button
             android:layout_width="78dp"
             android:layout_height="wrap_content"
             android:text="Logout"
-            android:id="@+id/btnlogout" android:layout_x="237dp" android:layout_y="423dp"/>
+            android:id="@+id/btnlogout" android:layout_x="27dp" android:layout_y="263dp"/>
+    <Button
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:text="Read FIle"
+            android:id="@+id/btnreadfile" android:layout_x="162dp" android:layout_y="484dp"/>
+    <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSong" android:layout_x="141dp" android:layout_y="380dp"
+            android:background="@drawable/ic_action_play"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button" android:layout_x="26dp" android:layout_y="384dp"/>
+    <Button
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnpause" android:layout_x="221dp" android:layout_y="384dp"
+            android:background="@drawable/ic_action_pause"/>
 </AbsoluteLayout>

@@ -14,5 +14,7 @@
         <activity android:name=".Special"/>
         <activity android:name=".Add_Contact"/>
         <activity android:name=".Help"/>
+
+
     </application>
 </manifest>
